@@ -25,7 +25,7 @@ function App() {
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
-      <Test/>
+      <Test title={"BonoBono"}/>
       <Topbottom isTop={isTop}/>
     </>
   );
