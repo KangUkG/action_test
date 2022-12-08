@@ -17,6 +17,16 @@ function App() {
   return (
     <>
       <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+      <button type='button' onClick={toggleHandler}>toggle button</button>
+
       <Topbottom isTop={isTop}/>
     </>
   );
