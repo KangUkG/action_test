@@ -10,6 +10,10 @@ function App() {
   const toggleHandler = () => {
     setIsTop(prev => !prev)
   }
+
+  console.log("App Start!")
+
+
   return (
     <>
       <button type='button' onClick={toggleHandler}>toggle button</button>
