@@ -12,10 +12,7 @@ function App() {
   }
 
   console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-
+  
   return (
     <>
       <button type='button' onClick={toggleHandler}>toggle button</button>
@@ -29,6 +26,8 @@ function App() {
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
 
+      <Topbottom isTop={isTop}/>
+      <Topbottom isTop={isTop}/>
       <Topbottom isTop={isTop}/>
     </>
   );
