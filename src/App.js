@@ -12,14 +12,6 @@ function App() {
     setIsTop(prev => !prev)
   }
 
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  
 
   return (
     <>
