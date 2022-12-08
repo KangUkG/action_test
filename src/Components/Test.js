@@ -1,9 +1,12 @@
 import React from "react";
 
-const Test = () => {
+const Test = (props) => {
 
     retrun (
-        <div>No</div>
+        <>
+            <h1>{props.title}</h1>
+            <h1>Yep</h1>
+        </>
     );
 }
 export default Test;

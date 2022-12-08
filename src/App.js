@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react';
 import Topbottom from './Components/Topbottom';
+import Test from './Components/Test'
 
 function App() {
 
@@ -11,14 +12,6 @@ function App() {
     setIsTop(prev => !prev)
   }
 
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  console.log("App Start!")
-  
 
   return (
     <>
@@ -32,7 +25,7 @@ function App() {
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
-
+      <Test title={"BonoBono"}/>
       <Topbottom isTop={isTop}/>
     </>
   );
