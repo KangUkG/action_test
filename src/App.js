@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react';
 import Topbottom from './Components/Topbottom';
+import Test from './Components/Test'
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
       <button type='button' onClick={toggleHandler}>toggle button</button>
-
+      <Test/>
       <Topbottom isTop={isTop}/>
     </>
   );
