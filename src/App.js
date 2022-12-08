@@ -12,6 +12,7 @@ function App() {
     setIsTop(prev => !prev)
   }
 
+  console.log("Tep")
 
   return (
     <>
